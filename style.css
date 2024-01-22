@@ -43,4 +43,8 @@ body {
     text-align: center;
 }
 
+.quicklinks {
+    font-size: 10px;
+}
+
 /*consider splitting css files for different html pages*/
