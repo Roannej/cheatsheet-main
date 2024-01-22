@@ -5,6 +5,11 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, monospace;
 }
 
+/*.index-body {
+    background-image: url(Resources/pexels-andre-furtado-370717-highrise.jpg);
+    background-size: cover;
+}*/
+
 .html-table {
     border: 1px solid rgb(0, 0, 0);
     background-color: rgb(155, 153, 196);
@@ -26,3 +31,15 @@ body {
     height: auto;
     margin-left: 10px;
 }
+
+.index-h1 {
+    text-align: center;
+    color: (
+        90deg, #4682B4 0%, #509dde 20%, #73bdfa 50%, #509dde 80%, #4682B4 100%
+    );
+}
+
+.index-h2 {
+    text-align: center;
+}
+
