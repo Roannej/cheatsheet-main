@@ -1,35 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
+    <!--HEAD-->
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HTML Study Notes</title>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
+
+    <!--BODY-->
     <body>
+        <!--NAVIGATION & PAGE HEADINGS-->
         <nav>
             <a href="index.html">Home</a>
         </nav>
         <h1>HTML</h1>
         <h2>Study Notes</h2>
 
+        <!--HTML DESCRIPTION-->
         <p>What is HTML?</p>
         <p>HTML stands for <em>Hyper Text Markup Language</em>, and is used
          to define the structure of a webpage. Without it, you cannot organize text, 
         add images or media resources to your webpages. HTML is the base, like a 
         skeleton.</p>
 
+        <!--QUICKLINKS SECTION-->
         <h3>Quick Links</h3>
         <a href="#structure">HTML Structure</a>
+        <a href="#doctype">DOCTYPE declaration</a>
+        <a href="#attribute">Attributes</a>
 
+        <!--HTML TABLE SECTION-->
         <table class="html-table">
+            <!--TABLE HEAD-->
             <thead class="html-table-head">
                 <td>Contents</td>
                 <td>Definition</td>
                 <td>Example</td>
             </thead>
+
+            <!--TABLE BODY-->
             <tbody>
                 <tr>
+                    <!--HTML STRUCTURE-->
                     <td>HTML Structure</td>
                     <td>HTML is organized into a family tree structure.</td>
                     <td id="structure">HTML elements can have parents, grandparents,
@@ -39,17 +53,34 @@
                     </td>
                 </tr>
                 <tr>
+                    <!--DOCTYPE-->
                     <td>&lt;!DOCTYPE&gt;</td>
                     <td>&lt;!DOCTYPE&gt; is NOT an element or a tag.</td>
-                    <td>It is an information declaration, telling the browser 
+                    <td id="doctype">It is an information declaration, telling the browser 
                         that the file is a markup .html file and that a set of 
                         standards must be applied to it.</td>
                 </tr>
                 <tr>
                     <td rowspan="20">HTML Concepts</td>
                 </tr>
-                <tr><td>Attributes</td></tr>
-                <tr><td>Classes</td></tr>
+                <tr>
+                    <!--ATTRIBUTES-->
+                    <td>Attributes</td>
+                    <td id="attribute">Syntax &equals; <img src="Resources/attributes-syntax.png" 
+                        alt="syntax for attributes">>HTML attributes are data that can be added to the opening tag
+                         of an HTML element. These attributes modify the default 
+                         behavior of the element or provide additional information 
+                         about it. Attributes consist of a name and are usually set 
+                         equal to a value. Values are enclosed in double or single 
+                         quotation marks. For further examples visit 
+                         <a href="https://www.codecademy.com/resources/docs/html/attributes">Codecademy 
+                            docs.</a></td>
+                </tr>
+                <tr>
+                    <!--CLASSES-->
+                    <td>Classes</td>
+                    <td></td>
+                </tr>
                 <tr><td>Comments</td></tr>
                 <tr><td>Elements</td></tr>
                 <tr><td>Entities</td></tr>
