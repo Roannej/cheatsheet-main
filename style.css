@@ -18,3 +18,10 @@ body {
 .html-table-head {
     font-weight: bold;
 }
+
+.html-structure {
+    display: block;
+    width: 30%;
+    height: auto;
+    margin-left: 10px;
+}
