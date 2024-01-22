@@ -1,6 +1,20 @@
 body {
-    margin: 0;
+    margin: 20;
     padding: 0;
     background-color: cornflowerblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, monospace;
+}
+
+.html-table {
+    border: 1px solid black;
+    background-color: white;
+}
+
+.html-table td {
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+.html-table-head {
+    font-weight: bold;
 }
