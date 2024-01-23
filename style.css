@@ -43,10 +43,15 @@ body {
     text-align: center;
 }
 
-.quicklinks {
+#quicklinks {
     font-size: 10px;
     padding: 5px 15px;
 }
+
+.quicklinks::after {
+    content: ">";
+}
+/*create new div in html*/
 
 .nav {
     text-align: center;
