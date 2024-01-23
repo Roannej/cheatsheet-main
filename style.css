@@ -47,4 +47,24 @@ body {
     font-size: 10px;
 }
 
+.nav {
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+    border: 1px solid black;
+    box-shadow:rgb(155, 153, 196);
+    background-color: yellow;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 15%;
+}
+
+button:hover {
+    background-color: coral;
+    font-weight: 700;
+    box-shadow: black;
+}
+
 /*consider splitting css files for different html pages*/
